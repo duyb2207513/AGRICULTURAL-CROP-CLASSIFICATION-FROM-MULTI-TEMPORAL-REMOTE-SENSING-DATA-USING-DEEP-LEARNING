@@ -1,0 +1,24 @@
+{
+  "models": {
+    "NDVI Statistics": {
+      "accuracy": 0.8233766233766234,
+      "f1_macro": 0.7468773005812933,
+      "f1_weighted": 0.8240292121708492,
+      "improvement_over_baseline": 0.0
+    },
+    "LSTM": {
+      "accuracy": 0.9558441558441558,
+      "f1_macro": 0.937501597435494,
+      "f1_weighted": 0.9558891871467288,
+      "improvement_over_baseline": -81.38181818181818
+    },
+    "Transformer": {
+      "accuracy": 0.9688311688311688,
+      "f1_macro": 0.9546611683228332,
+      "f1_weighted": 0.9688359590782258,
+      "improvement_over_baseline": -81.36883116883116
+    }
+  },
+  "comparison_date": "2026-03-02T01:04:02",
+  "baseline": "NDVI Statistics"
+}
